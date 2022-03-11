@@ -1,0 +1,40 @@
+{
+    "name": "iamkesharinandan/laravel-dymanodb",
+    "description": "A repository for Laravel to interact with AWS DynamoDB",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Keshari Nandan",
+            "email": "iamkesharinandan@gmail.com",
+            "homepage": "https://github.com/iamkesharinandan"
+        }
+    ],
+    "config": {
+        "secure-http": false,
+        "github-protocols": [
+            "git",
+            "https"
+        ],
+        "discard-changes": true,
+        "optimize-autoloader": true,
+        "classmap-authoritative": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Iamkesharinandan\\LaravelDynamodb\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "IamKeshariNandan\\LaravelDynamodb\\DynamodbServiceProvider"
+            ]
+        }
+    }
+}
