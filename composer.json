@@ -1,5 +1,5 @@
 {
-    "name": "iamkesharinandan/laravel-dymanodb",
+    "name": "iamkesharinandan/laravel-dynamodb",
     "description": "A repository for Laravel to interact with AWS DynamoDB",
     "type": "library",
     "license": "MIT",
