@@ -1,2 +1,2 @@
 # laravel-dymanodb
-A repository for Laravel to intract with AWS DyanmoDB
+A repository for Laravel to interact with AWS DynamoDB
